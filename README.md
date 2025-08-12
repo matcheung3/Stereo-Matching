@@ -66,7 +66,7 @@ pip install opencv-python numpy
 
 ---
 
-## 📊 Example Output
+## 📊 Output
 
 The computed disparity map will be displayed as an 8-bit grayscale image, and the PSNR score will indicate the similarity to the ground truth.
 <img width="687" height="709" alt="image" src="https://github.com/user-attachments/assets/ea5a7646-6239-4976-ac56-b597f7042209" />
