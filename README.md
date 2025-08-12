@@ -21,9 +21,24 @@ The goal of this assignment is to:
 
 ```
 .
-├── CS4186_A2.ipynb         # Main Jupyter Notebook containing the implementation
-├── images/                 # Example stereo images and ground truth disparity maps (if included)
-└── README.md               # Project documentation
+├── CS4186_A2.ipynb # Main Jupyter Notebook containing the implementation
+│
+├── Art/
+│ ├── view1.png     # Example stereo image (left)
+│ ├── view5.png     # Example stereo image (right)
+│ └── disp1.png     # Ground-truth disparity map
+│
+├── Dolls/
+│ ├── view1.png     # Example stereo image (left)
+│ ├── view5.png     # Example stereo image (right)
+│ └── disp1.png     # Ground-truth disparity map
+│
+├── Reindeer/
+│ ├── view1.png     # Example stereo image (left)
+│ ├── view5.png     # Example stereo image (right)
+│ └── disp1.png     # Ground-truth disparity map
+│
+└── README.md       # Project documentation
 ```
 
 ---
@@ -54,6 +69,9 @@ pip install opencv-python numpy
 ## 📊 Example Output
 
 The computed disparity map will be displayed as an 8-bit grayscale image, and the PSNR score will indicate the similarity to the ground truth.
+<img width="687" height="709" alt="image" src="https://github.com/user-attachments/assets/ea5a7646-6239-4976-ac56-b597f7042209" />
+<img width="683" height="677" alt="image" src="https://github.com/user-attachments/assets/503d1fdf-8b70-4e20-b006-8f0bcaa4d603" />
+<img width="684" height="670" alt="image" src="https://github.com/user-attachments/assets/5b359294-3341-449c-abbf-ce634d6a827d" />
 
 ---
 
